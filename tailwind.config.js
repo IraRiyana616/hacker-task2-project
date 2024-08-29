@@ -16,6 +16,7 @@ export default {
       },
       fontSize: {
         'custom-40': '40px',
+        'custom-30': '30px',
       },
     },
   },
