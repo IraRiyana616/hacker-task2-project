@@ -28,10 +28,10 @@ const Navbar = () => {
   // Navigation Items
   const navItems = [
     { link: 'Beranda', path: 'home' },
-    { link: 'Tentang Kami', path: 'tentang' },
+    { link: 'Tentang Kami', path: 'about' },
     { link: 'Bantuan', path: 'service' },
     { link: 'Media', path: 'media' },
-    { link: 'Kontak', path: 'kontak' },
+    { link: 'Kontak', path: 'contact' },
   ];
 
   return (

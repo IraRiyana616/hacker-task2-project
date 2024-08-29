@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
+import Media from './components/Media';
+import Contacts from './components/Contact';
 function App() {
   return (
     <>
@@ -11,6 +13,8 @@ function App() {
       <Home />
       <About />
       <Services />
+      <Media />
+      <Contacts />
     </>
   );
 }

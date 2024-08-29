@@ -25,20 +25,20 @@ const Services = () => {
     },
   ];
   return (
-    <div className="md:px-14 px-4 py-6 max-w-screen-xl mx-auto">
+    <div className="md:px-14 px-4 py-6 max-w-screen-xl mx-auto " id="service">
       <div className="text-center my-8">
         <h2 className="text-custom-30 font-neutralGrey font-semibold mb-2">
           Pilih Topik Sesuai Kendalamu
         </h2>
       </div>
       {/* Cards Component */}
-      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
+      <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12  ">
         {services.map((service) => (
           <div
             key={service.id}
-            className="text-center mx-auto rounded-md shadow cursor-pointer 
-      hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 "
-            style={{ width: '350px', height: '170px', padding: '8px 4px' }}>
+            className="text-center mx-auto rounded-md shadow-lg cursor-pointer 
+                       hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 "
+            style={{ width: '350px', height: '190px', padding: '8px 4px' }}>
             <div className="bg-[#E8F5E9] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl flex items-center justify-center">
               <img src={service.image} alt="" className="w-[55px] h-[55px]" />
             </div>

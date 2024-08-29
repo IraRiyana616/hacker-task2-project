@@ -10,3 +10,6 @@ header {
 .nowrap {
   white-space: nowrap;
 }
+.logo {
+  padding-left: 35px;
+}

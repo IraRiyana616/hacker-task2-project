@@ -13,6 +13,7 @@ export default {
         brandPrimary: '#4CAFAF',
         neutralGrey: '#717171',
         gray900: '#18191F',
+        grey: '#efeff0',
       },
       fontSize: {
         'custom-40': '40px',

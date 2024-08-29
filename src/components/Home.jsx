@@ -6,7 +6,7 @@ import banner2 from '../assets/penjual.png';
 
 const Home = () => {
   return (
-    <div className="bg-brandPrimary">
+    <div className="bg-brandPrimary" id="home">
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
         <Carousel className="w-full max-auto">
           {/*Slide 1*/}
