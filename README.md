@@ -2,7 +2,7 @@
 
 #### Tidak dapat menampilkan halaman apabila isAuthenticated = false;
    
-   ![Screenshot (1166)](https://github.com/user-attachments/assets/71557d08-5b6e-405b-87f0-f818184ba57d)
+   ![Screenshot (1164)](https://github.com/user-attachments/assets/c31bbdf6-ab2d-42b4-8d68-8ad282aa5310)
 
 
 #### Dapat menampilkan halaman apabila isAuthenticated = true;
