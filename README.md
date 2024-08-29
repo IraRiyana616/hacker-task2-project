@@ -2,11 +2,13 @@
 
 #### Tidak dapat menampilkan halaman apabila isAuthenticated = false;
    
-   ![Screenshot (1166)](https://github.com/user-attachments/assets/c34508ae-f4a9-4710-bdaf-b18582c7542f)
+   ![Screenshot (1166)](https://github.com/user-attachments/assets/71557d08-5b6e-405b-87f0-f818184ba57d)
+
 
 #### Dapat menampilkan halaman apabila isAuthenticated = true;
 
-   ![Screenshot (1165)](https://github.com/user-attachments/assets/3f99851c-a00d-4ee9-aa8c-e394fc6e40d0)
+  ![Screenshot (1168)](https://github.com/user-attachments/assets/3152b9ed-9b73-4d39-8849-ae2fee2a335e)
+
 
 #### Dapat mengarahkan ke halaman yang di pilih pada navigasi:
 
