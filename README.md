@@ -18,7 +18,7 @@
 
    #### Ketika mengklik 'Tentang Kami'
    
-      ![Screenshot (1169)](https://github.com/user-attachments/assets/8f88303c-0e30-437a-b1b3-2405a31e09f8)
+      ![Screenshot (1169)](https://github.com/user-attachments/assets/46e620c8-f0dd-4d41-86c5-c0079f3991f8)
 
    #### Ketika mengklik 'Bantuan'
    
