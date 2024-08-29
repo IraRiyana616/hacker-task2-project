@@ -1,4 +1,4 @@
-# Hacker Task Day 2
+# Day 2 - Hacker Task 
 
 #### Tidak dapat menampilkan halaman apabila isAuthenticated = false;
    
