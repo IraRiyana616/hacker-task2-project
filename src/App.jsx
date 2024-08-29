@@ -1,4 +1,3 @@
-// App.jsx
 import './App.css';
 import 'flowbite/dist/flowbite.css';
 import Navbar from './components/Navbar';
@@ -13,20 +12,55 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   const isAuthenticated = true;
+
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<PrivateRoute element={<Home />} />} />
-        <Route path="/about" element={<PrivateRoute element={<About />} />} />
         <Route
-          path="/services"
-          element={<PrivateRoute element={<Services />} />}
+          path="/home"
+          element={
+            <PrivateRoute
+              isAuthenticated={isAuthenticated}
+              element={<Home />}
+            />
+          }
         />
-        <Route path="/media" element={<PrivateRoute element={<Media />} />} />
         <Route
-          path="/contacts"
-          element={<PrivateRoute element={<Contacts />} />}
+          path="/about"
+          element={
+            <PrivateRoute
+              isAuthenticated={isAuthenticated}
+              element={<About />}
+            />
+          }
+        />
+        <Route
+          path="/service"
+          element={
+            <PrivateRoute
+              isAuthenticated={isAuthenticated}
+              element={<Services />}
+            />
+          }
+        />
+        <Route
+          path="/media"
+          element={
+            <PrivateRoute
+              isAuthenticated={isAuthenticated}
+              element={<Media />}
+            />
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <PrivateRoute
+              isAuthenticated={isAuthenticated}
+              element={<Contacts />}
+            />
+          }
         />
         <Route path="/login" element={<Login />} />
       </Routes>

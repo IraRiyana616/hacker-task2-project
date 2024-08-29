@@ -6,9 +6,6 @@ const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
 
   // Set Toggle Menu
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,7 +24,7 @@ const Navbar = () => {
 
   // Navigation Items
   const navItems = [
-    { link: 'Beranda', path: 'home' },
+    { link: 'Home', path: 'home' },
     { link: 'Tentang Kami', path: 'about' },
     { link: 'Bantuan', path: 'service' },
     { link: 'Media', path: 'media' },
