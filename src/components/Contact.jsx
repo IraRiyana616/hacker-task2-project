@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 
 const Contacts = () => {
   return (
-    <Footer className="w-full bg-grey" container>
+    <Footer className="w-full bg-grey" container style={{ marginTop: '90px' }}>
       <div className="w-full bg-grey" id="contact">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>

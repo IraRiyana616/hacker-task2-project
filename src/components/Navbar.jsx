@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-
-  // Set Toggle Menu
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,13 +20,13 @@ const Navbar = () => {
     };
   }, []);
 
-  // Navigation Items
+  // Navigation items
   const navItems = [
-    { link: 'Home', path: 'home' },
-    { link: 'Tentang Kami', path: 'about' },
-    { link: 'Bantuan', path: 'service' },
-    { link: 'Media', path: 'media' },
-    { link: 'Kontak', path: 'contact' },
+    { link: 'Home', path: '/home' },
+    { link: 'Tentang Kami', path: '/about' },
+    { link: 'Bantuan', path: '/service' },
+    { link: 'Media', path: '/media' },
+    { link: 'Kontak', path: '/contact' },
   ];
 
   return (
@@ -46,7 +44,7 @@ const Navbar = () => {
           <ul className="md:flex space-x-12 hidden">
             {navItems.map(({ link, path }) => (
               <a
-                href={`#${path}`}
+                href={`${path}`}
                 key={path}
                 className="block text-base text-gray-900 hover:text-brandPrimary first:font-medium">
                 {link}

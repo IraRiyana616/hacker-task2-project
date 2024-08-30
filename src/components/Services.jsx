@@ -25,7 +25,10 @@ const Services = () => {
     },
   ];
   return (
-    <div className="md:px-14 px-4 py-6 max-w-screen-xl mx-auto " id="service">
+    <div
+      className="md:px-14 px-4 py-6 max-w-screen-xl mx-auto "
+      id="service"
+      style={{ marginTop: '90px' }}>
       <div className="text-center my-8">
         <h2 className="text-custom-30 font-neutralGrey font-semibold mb-2">
           Pilih Topik Sesuai Kendalamu

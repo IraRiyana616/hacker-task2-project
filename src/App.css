@@ -13,3 +13,6 @@ header {
 .logo {
   padding-left: 35px;
 }
+.scroll-target {
+  scroll-margin-top: 80px; /* Sesuaikan dengan tinggi navbar Anda */
+}
