@@ -1,9 +1,9 @@
 import React from 'react';
-
-// Assuming you are using Webpack or a similar tool that handles image imports
-import media1 from '../assets/media1.jpg';
-import media2 from '../assets/media2.jpg';
-import media3 from '../assets/media3.jpg';
+import Footers from '/src/components/footer/Footer';
+import Navbar from '/src/components/header/Navbar';
+import media1 from '/src/assets/images/media1.jpg';
+import media2 from '/src/assets/images/media2.jpg';
+import media3 from '/src/assets/images/media3.jpg';
 
 const Media = () => {
   const medias = [
@@ -28,18 +28,18 @@ const Media = () => {
   ];
 
   return (
-    <div
-      className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12"
-      id="media"
-      style={{ marginTop: '120px' }}>
+    <div className="bg-white " id="media" style={{ marginTop: '85px' }}>
+      <Navbar />
       <div className="text-center md:w-1/2 mx-auto">
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-4">Media</h2>
-        <p className="text-sm text-neutralGrey mb-8 md:w-3/4 mx-auto">
+        <h2 className="py-5 text-4xl text-neutralDGrey  font-semibold mb-4">
+          Media
+        </h2>
+        <p className="text-sm text-neutralGrey  mb-8 md:w-3/4 mx-auto ">
           Informasi Seputar PaDi UMKM
         </p>
       </div>
       {/* All Media */}
-      <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between">
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between">
         {medias.map((media) => (
           <div key={media.id} className="relative mb-4">
             <img
@@ -47,11 +47,11 @@ const Media = () => {
               alt={media.title}
               className="w-full h-auto rounded-lg hover:scale-95 transition-all duration-300"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-white text-center px-4 py-8 shadow-lg rounded-md md:w-3/4 mx-auto">
+            <div className="absolute bottom-0 left-0 right-0 bg-white  text-center px-4 py-8 shadow-lg rounded-md md:w-3/4 mx-auto">
               <h3 className="text-lg font-semibold text-neutralGrey">
                 {media.title}
               </h3>
-              <div className="flex items-center justify-center gap-8">
+              <div className="flex items-center justify-center gap-8 bg-white ">
                 <a
                   href="/"
                   className="font-bold text-brandPrimary hover:text-neutral-700">
@@ -74,6 +74,7 @@ const Media = () => {
           </div>
         ))}
       </div>
+      <Footers />
     </div>
   );
 };
